@@ -10,6 +10,7 @@ namespace OpenSilverApplication46
 {
     public partial class MainPage : Page
     {
+
         public MainPage(IConfiguration configuration)
         {
             this.InitializeComponent();
@@ -17,7 +18,7 @@ namespace OpenSilverApplication46
             // Enter construction logic here...
 
             DataContext = this;
-            Message = configuration["message"];
+            Message = configuration?["message"] ?? "Can not load configuration";
         }
 
         public string Message { get; set; }

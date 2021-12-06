@@ -18,5 +18,9 @@ namespace OpenSilverApplication46
             var mainPage = new MainPage(configuration);
             Window.Current.Content = mainPage;
         }
+
+        public App() : this(null)
+        {
+        }
     }
 }
