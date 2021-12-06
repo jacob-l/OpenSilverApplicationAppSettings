@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Miscellaneous
+OpenSilverApplication46/OpenSilverApplication46.Browser/wwwroot/resources/
